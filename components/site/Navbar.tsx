@@ -9,6 +9,7 @@ import { Menu, X, Heart } from "lucide-react";
 const logo = "/assets/logo.png";
 
 const links = [
+  {to: "/", label: "Home"},
   { to: "/about", label: "About" },
   { to: "/mission", label: "Mission" },
   { to: "/impact", label: "Impact" },

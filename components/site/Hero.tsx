@@ -75,7 +75,7 @@ export function Hero() {
         >
           <Link
             href="/donate"
-            className="group inline-flex items-center gap-2 rounded-full bg-[var(--gradient-gold)] px-7 py-3.5 text-sm font-semibold text-gold-foreground shadow-[var(--shadow-gold)] transition-all hover:scale-[1.03]"
+            className="group inline-flex items-center gap-2 rounded-full bg-black text-white px-7 py-3.5 text-sm font-semibold text-gold-foreground shadow-[var(--shadow-gold)] transition-all hover:scale-[1.03]"
           >
             <Heart className="h-4 w-4" />
             Donate Now
@@ -83,7 +83,7 @@ export function Hero() {
           </Link>
           <Link
             href="/get-involved"
-            className="group inline-flex items-center gap-2 rounded-full border border-primary-foreground/30 bg-primary-foreground/5 px-7 py-3.5 text-sm font-semibold text-primary-foreground backdrop-blur-md transition-all hover:bg-primary-foreground/15"
+            className="group inline-flex items-center gap-2 rounded-full border border-gold bg-transparent text px-7 py-3.5 text-sm font-semibold text-primary-foreground backdrop-blur-md transition-all "
           >
             <Users className="h-4 w-4" />
             Join the Mission

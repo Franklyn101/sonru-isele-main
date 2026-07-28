@@ -346,10 +346,10 @@ export default function DonatePageClient() {
               className="rounded-3xl bg-[var(--gradient-green)] p-7 text-primary-foreground shadow-elegant"
             >
               <div className="text-xs uppercase tracking-[0.18em] text-gold">Your impact</div>
-              <div className="mt-3 font-display text-4xl font-semibold">
-                {format(effectiveAmount)}{frequency === "monthly" ? <span className="text-lg font-medium text-primary-foreground/80"> / month</span> : ""}
+              <div className="mt-3 font-display text-4xl text-black font-semibold">
+                {format(effectiveAmount)}{frequency === "monthly" ? <span className="text-lg font-medium text-gold"> / month</span> : ""}
               </div>
-              <p className="mt-3 text-primary-foreground/90 leading-relaxed">
+              <p className="mt-3 text-black leading-relaxed">
                 {frequency === "monthly" ? "Every month" : "Your gift"} {impact}.
               </p>
             </motion.div>

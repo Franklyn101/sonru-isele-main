@@ -148,9 +148,9 @@ export function JoinMission() {
                   <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary-foreground/10 text-gold">
                     <Mail className="h-5 w-5" />
                   </div>
-                  <h3 className="text-xl font-semibold">Stories from the field</h3>
+                  <h3 className="text-xl text-black font-semibold">Stories from the field</h3>
                 </div>
-                <p className="mt-3 text-sm text-primary-foreground/85">
+                <p className="mt-3 text-black text-sm ">
                   Monthly updates on real lives changed. No spam, ever.
                 </p>
                 {newsletter ? (
@@ -164,11 +164,11 @@ export function JoinMission() {
                       type="email"
                       placeholder="your@email.com"
                       aria-label="Email for newsletter"
-                      className="flex-1 rounded-xl border border-primary-foreground/20 bg-primary-foreground/10 px-4 py-3 text-sm text-primary-foreground placeholder:text-primary-foreground/60 outline-none focus:border-gold focus:ring-2 focus:ring-gold/40"
+                      className="flex-1 rounded-xl border border-black bg-primary-foreground/10 px-4 py-3 text-sm text-primary-foreground placeholder:text-primary-foreground/60 outline-none focus:border-gold focus:ring-2 focus:ring-gold/40"
                     />
                     <button
                       type="submit"
-                      className="inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--gradient-gold)] px-5 py-3 text-sm font-semibold text-gold-foreground shadow-[var(--shadow-gold)] transition hover:scale-[1.03]"
+                      className="inline-flex items-center justify-center gap-2 rounded-xl bg-black text-white px-5 py-3 text-sm font-semibold text-gold-foreground shadow-[var(--shadow-gold)] transition hover:scale-[1.03]"
                     >
                       Subscribe
                     </button>
