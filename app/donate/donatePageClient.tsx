@@ -9,6 +9,8 @@ import {
 } from "lucide-react";
 import { PageHeader } from "../../components/site/pageHeader";
 import { Reveal, Stagger, itemVariants } from "@/components/site/Reveal";
+import { useEffect } from "react";
+
 
 // In Next.js, static files in /public are referenced by path (no import needed).
 const headerImg = "/assets/impact-infrastructure.jpg";
@@ -89,19 +91,27 @@ export default function DonatePageClient() {
   const [frequency, setFrequency] = useState<Frequency>("monthly");
   const [currency, setCurrency] = useState<Currency>("USD");
   const [amount, setAmount] = useState<number>(100);
-  const [custom, setCustom] = useState<string>("");
+  const [customAmount, setCustomAmount] = useState<number | null>(null);
   const [cause, setCause] = useState<string>("where-needed");
   const [method, setMethod] = useState<string>("card");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  
+
+
+
+
+const displayedCustomAmount =
+  customAmount == null
+    ? ""
+    : currency === "USD"
+      ? customAmount.toString()
+      : Math.round(customAmount * currencies.NGN.rate).toString();
 
   const cur = currencies[currency];
 
-  const effectiveAmount = useMemo(() => {
-    const c = parseFloat(custom);
-    return !isNaN(c) && c > 0 ? c : amount;
-  }, [amount, custom]);
+  const effectiveAmount = customAmount ?? amount;
 
   const format = (usd: number) => {
     const converted = Math.round(usd * cur.rate);
@@ -205,12 +215,15 @@ export default function DonatePageClient() {
                   <div className="text-sm font-medium text-foreground">Choose an amount</div>
                   <div className="mt-3 grid grid-cols-3 gap-2.5 sm:grid-cols-6">
                     {amounts.map((a) => {
-                      const active = !custom && amount === a;
+                      const active = customAmount === null && amount === a;
                       return (
                         <button
                           key={a}
                           type="button"
-                          onClick={() => { setAmount(a); setCustom(""); }}
+                         onClick={() => {
+                            setAmount(a);
+                            setCustomAmount(null);
+                          }}
                           className={`rounded-xl border px-3 py-3 text-sm font-semibold transition ${
                             active
                               ? "border-primary bg-primary text-primary-foreground shadow-soft"
@@ -223,17 +236,32 @@ export default function DonatePageClient() {
                     })}
                   </div>
                   <div className="mt-3 flex items-center gap-2 rounded-xl border border-input bg-background px-4 py-3 text-sm focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/15">
-                    <span className="text-muted-foreground">$</span>
-                    <input
-                      inputMode="decimal"
-                      placeholder="Other amount (USD)"
-                      aria-label="Custom amount in USD"
-                      value={custom}
-                      onChange={(e) => setCustom(e.target.value.replace(/[^0-9.]/g, ""))}
-                      className="flex-1 bg-transparent outline-none"
-                    />
-                    <span className="text-xs text-muted-foreground">USD</span>
-                  </div>
+  <span className="text-muted-foreground">{cur.symbol}</span>
+
+  <input
+    inputMode="decimal"
+    placeholder={`Other amount (${currency})`}
+    aria-label={`Custom amount in ${currency}`}
+    value={displayedCustomAmount}
+    onChange={(e) => {
+      const value = Number(e.target.value.replace(/[^0-9.]/g, ""));
+
+      if (!value) {
+        setCustomAmount(null);
+        return;
+      }
+
+      if (currency === "USD") {
+        setCustomAmount(value);
+      } else {
+        setCustomAmount(value / currencies.NGN.rate);
+      }
+    }}
+    className="flex-1 bg-transparent outline-none"
+  />
+
+  <span className="text-xs text-muted-foreground">{currency}</span>
+</div>
                   {currency === "NGN" && (
                     <p className="mt-2 text-xs text-muted-foreground">
                       Displayed in ₦ at approx. ₦{cur.rate.toLocaleString()} / $1. Final rate set at checkout.
