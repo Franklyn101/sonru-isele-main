@@ -42,8 +42,8 @@ const impactLevels = [
 ];
 
 const methods = [
-  { id: "card", icon: CreditCard, label: "Card", desc: "Visa, Mastercard, Verve" },
   { id: "transfer", icon: Banknote, label: "Bank transfer", desc: "Direct deposit, NGN/USD" },
+  { id: "card", icon: CreditCard, label: "Card", desc: "Visa, Mastercard, Verve" },
   { id: "mobile", icon: Smartphone, label: "Mobile money", desc: "Paystack, Flutterwave" },
 ];
 
@@ -60,11 +60,12 @@ const methodDetails: Record<string, { title: string; rows: { label: string; valu
   transfer: {
     title: "Bank transfer details",
     rows: [
-      { label: "Account name", value: "SONRU ISELE Charity Foundation" },
+      { label: "Account name", value: "SONRU ISELE CHARITY FOUNDATION" },
       { label: "Bank (NGN)", value: "First City Monument Bank (FCMB)" },
       { label: "Account number (NGN)", value: "2003947592" },
       { label: "USD domiciliary", value: "First City Monument Bank — 2003947592" },
-      { label: "SWIFT / BIC", value: "ZEIBNGLA" },
+      { label: "USD wire / Avaialable on request", value: "email giving@sonruisele.org" },
+      { label: "Stock / property gifts", value: "email giving@sonruisele.org" },
     ],
     note: "Use your full name as the transfer reference and email a copy to giving@sonruisele.org for acknowledgment.",
   },

@@ -89,8 +89,8 @@ export function Footer() {
           <div>
             <h3 className="font-display text-sm uppercase tracking-[0.22em] text-gold">Contact</h3>
             <ul className="mt-5 space-y-3 text-sm text-primary-foreground/80">
-              <li className="flex items-start gap-3"><MapPin className="h-4 w-4 mt-0.5 text-gold" /><span>Lagos, Nigeria</span></li>
-              <li className="flex items-start gap-3"><Mail className="h-4 w-4 mt-0.5 text-gold" /><span>hello@sonruisele.org</span></li>
+              <li className="flex items-start gap-3"><MapPin className="h-10 w-10 mt-0.5 text-gold" /><span>1,LETTHEMSAY COUNTRY HOME KALA OGULAGHA QUARTERS, DELTA STATE</span></li>
+              <li className="flex items-start gap-3"><Mail className="h-4 w-4 mt-0.5 text-gold" /><span>LETTHEMSAYFOUNDATION@GMAIL.COM</span></li>
               <li className="flex items-start gap-3"><Phone className="h-4 w-4 mt-0.5 text-gold" /><span>+234 800 000 0000</span></li>
             </ul>
             <Link

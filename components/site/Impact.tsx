@@ -115,7 +115,7 @@ export function Impact() {
                     />
                   </div>
                   <div className="mt-1.5 flex justify-between text-[11px] text-muted-foreground">
-                    <span>2024 progress</span>
+                    <span>2025 progress</span>
                     <span>{p.progress}%</span>
                   </div>
                 </div>
