@@ -64,10 +64,10 @@ const methodDetails: Record<string, { title: string; rows: { label: string; valu
       { label: "Bank (NGN)", value: "First City Monument Bank (FCMB)" },
       { label: "Account number (NGN)", value: "2003947592" },
       { label: "USD domiciliary", value: "First City Monument Bank — 2003947592" },
-      { label: "USD wire / Avaialable on request", value: "email giving@sonruisele.org" },
-      { label: "Stock / property gifts", value: "email giving@sonruisele.org" },
+      { label: "USD wire / Avaialable on request", value: "email  sonruiselecharityfoundation@gmail.com" },
+      { label: "Stock / property gifts", value: "email  sonruiselecharityfoundation@gmail.com" },
     ],
-    note: "Use your full name as the transfer reference and email a copy to giving@sonruisele.org for acknowledgment.",
+    note: "Use your full name as the transfer reference and email a copy to  sonruiselecharityfoundation@gmail.com for acknowledgment.",
   },
   mobile: {
     title: "Mobile money",
@@ -85,7 +85,7 @@ const faqs = [
   { q: "Is my donation tax-deductible?", a: "SONRU ISELE Charity Foundation is a registered Nigerian nonprofit. Receipts are issued for every gift and may be tax-deductible in your jurisdiction — please consult your tax advisor." },
   { q: "How is my money used?", a: "92% of every gift goes directly to programs. The remaining 8% covers essential operations, audits and program evaluation. Our annual report is published publicly each March." },
   { q: "Can I cancel a monthly gift?", a: "Yes — anytime. You'll receive a confirmation email with a one-click cancellation link, or you can email us at hello@sonruisele.org." },
-  { q: "Do you accept gifts of stock or property?", a: "Yes. Please contact our giving team at giving@sonruisele.org to coordinate." },
+  { q: "Do you accept gifts of stock or property?", a: "Yes. Please contact our giving team at  sonruiselecharityfoundation@gmail.com to coordinate." },
 ];
 
 export default function DonatePageClient() {
@@ -272,7 +272,7 @@ const displayedCustomAmount =
 
                 {/* Cause */}
                 <div className="mt-8">
-                  <div className="text-sm font-medium text-foreground">what your gifts to</div>
+                  <div className="text-sm font-medium text-foreground">what your gifts go to</div>
                   <div className="mt-3 grid gap-2.5 sm:grid-cols-2">
                     {causes.map((c) => {
                       const active = cause === c.id;
@@ -366,7 +366,7 @@ const displayedCustomAmount =
           </form>
 
           {/* Sidebar */}
-          <div className="space-y-6">
+          {/* <div className="space-y-6">
             <motion.div
               initial={{ opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -380,7 +380,7 @@ const displayedCustomAmount =
               <p className="mt-3 text-black leading-relaxed">
                 {frequency === "monthly" ? "Every month" : "Your gift"} {impact}.
               </p>
-            </motion.div>
+            </motion.div> */}
 
             <div className="rounded-3xl border border-border bg-card p-7">
               <div className="flex items-center gap-3">
