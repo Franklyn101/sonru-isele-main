@@ -9,11 +9,31 @@ import { Reveal } from "./Reveal";
 export function JoinMission() {
   const [submitted, setSubmitted] = useState(false);
   const [newsletter, setNewsletter] = useState(false);
+ const [volunteerName, setVolunteerName] = useState("");
+const [volunteerEmail, setVolunteerEmail] = useState("");
+const [volunteerMessage, setVolunteerMessage] = useState("");
 
-  const onVolunteer = (e: FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-  };
+const onVolunteer = (e: FormEvent) => {
+  e.preventDefault();
+
+  const subject = `Volunteer Application - ${volunteerName}`;
+
+  const body = `
+Volunteer Application
+
+Name: ${volunteerName}
+Email: ${volunteerEmail}
+
+How I'd like to help:
+${volunteerMessage}
+`.trim();
+
+  const mailto = `mailto:volunteer@sonruisele.org?subject=${encodeURIComponent(
+    subject
+  )}&body=${encodeURIComponent(body)}`;
+
+  window.location.href = mailto;
+};
   const onNewsletter = (e: FormEvent) => {
     e.preventDefault();
     setNewsletter(true);
@@ -70,7 +90,7 @@ export function JoinMission() {
                 </div>
               </Link>
               <Link
-                href="/get-involved"
+                href="https://docs.google.com/forms/d/17E6rk6KK64wKECMXrIilaNQacO4htekaqLm5AUVN4us" target="blank"
                 className="group relative overflow-hidden rounded-2xl border border-border bg-card p-6 hover-lift"
               >
                 <Handshake className="h-7 w-7 text-primary" />
@@ -110,19 +130,26 @@ export function JoinMission() {
                 ) : (
                   <div className="mt-5 grid gap-3">
                     <input
+                    value={volunteerName}
+  onChange={(e) => setVolunteerName(e.target.value)}
                       required
                       placeholder="Full name"
                       aria-label="Full name"
                       className="w-full rounded-xl border border-input bg-background px-4 py-3 text-sm outline-none transition focus:border-primary focus:ring-2 focus:ring-primary/15"
                     />
                     <input
-                      required
+                    required
+  value={volunteerEmail}
+  onChange={(e) => setVolunteerEmail(e.target.value)}
                       type="email"
                       placeholder="Email address"
                       aria-label="Email address"
                       className="w-full rounded-xl border border-input bg-background px-4 py-3 text-sm outline-none transition focus:border-primary focus:ring-2 focus:ring-primary/15"
                     />
                     <textarea
+
+value={volunteerMessage}
+  onChange={(e) => setVolunteerMessage(e.target.value)}
                       rows={3}
                       placeholder="How would you like to help?"
                       aria-label="Message"

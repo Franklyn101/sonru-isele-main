@@ -8,14 +8,16 @@ const healthcareImg = "/assets/impact-health.jpg";
 const educationImg = "/assets/impact-education.jpg";
 const enterpriseImg = "/assets/impact-enterprise.jpg";
 const infraImg = "/assets/impact-infrastructure.jpg";
+const infraimg2 = "/assets/infraimg2.jpg"
 
 const pillars = [
   {
     title: "Healthcare Support",
     body: "Free medical outreach, maternal care, and emergency assistance reaching remote villages.",
-    img: healthcareImg,
+    img: infraImg,
+
     alt: "Nurse caring for an elderly patient during a community health outreach",
-    metric: 12400,
+    metric: 2400,
     metricLabel: "patients treated",
     progress: 84,
   },
@@ -40,9 +42,10 @@ const pillars = [
   {
     title: "Infrastructure & Homes",
     body: "Building safe, dignified accommodation and community facilities where they're needed most.",
-    img: infraImg,
+     img: infraimg2,
+
     alt: "Newly built community housing in a Nigerian village with residents outside",
-    metric: 142,
+    metric: 42,
     metricLabel: "homes & facilities built",
     progress: 58,
   },
@@ -104,7 +107,7 @@ export function Impact() {
                   </div>
                 </div>
 
-                <div className="mt-4">
+                {/* <div className="mt-4">
                   <div className="h-1.5 w-full overflow-hidden rounded-full bg-secondary">
                     <motion.div
                       initial={{ width: 0 }}
@@ -118,7 +121,7 @@ export function Impact() {
                     <span>2025 progress</span>
                     <span>{p.progress}%</span>
                   </div>
-                </div>
+                </div> */}
               </div>
             </motion.article>
           ))}

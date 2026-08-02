@@ -63,7 +63,7 @@ export default function ImpactPageClient() {
         image={headerImg}
         imageAlt="Healthcare workers tending to patients at a SONRU ISELE medical outreach"
       />
-
+{/* 
       <section className="bg-background py-20">
         <div className="container-page grid grid-cols-2 gap-4 md:grid-cols-4">
           {headline.map((s, i) => (
@@ -82,7 +82,7 @@ export default function ImpactPageClient() {
             </motion.div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       <Impact />
 
@@ -116,9 +116,9 @@ export default function ImpactPageClient() {
             Your support builds the next story.
           </h2>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
-            <Link href="/donate" className="inline-flex items-center gap-2 rounded-full bg-[var(--gradient-gold)] px-6 py-3 text-sm font-semibold text-gold-foreground shadow-[var(--shadow-gold)] hover:scale-[1.03] transition">
+            {/* <Link href="/donate" className="inline-flex items-center gap-2 rounded-full bg-[var(--gradient-gold)] px-6 py-3 text-sm font-semibold text-gold-foreground shadow-[var(--shadow-gold)] hover:scale-[1.03] transition">
               <Heart className="h-4 w-4" /> Donate now
-            </Link>
+            </Link> */}
             <Link href="/get-involved" className="inline-flex items-center gap-2 rounded-full border border-primary-foreground/30 px-6 py-3 text-sm font-semibold hover:bg-primary-foreground/10 transition">
               Volunteer with us <ArrowRight className="h-4 w-4" />
             </Link>

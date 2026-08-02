@@ -69,9 +69,9 @@ export function Footer() {
             <h3 className="font-display text-sm uppercase tracking-[0.22em] text-gold">Explore</h3>
             <ul className="mt-5 space-y-3 text-sm text-primary-foreground/80">
               <li><Link href="/about" className="hover:text-gold transition">About</Link></li>
-              <li><Link href="/mission" className="hover:text-gold transition">Mission & Vision</Link></li>
+              {/* <li><Link href="/mission" className="hover:text-gold transition">Mission & Vision</Link></li> */}
               <li><Link href="/impact" className="hover:text-gold transition">Our Impact</Link></li>
-              <li><Link href="/values" className="hover:text-gold transition">Core Values</Link></li>
+              {/* <li><Link href="/values" className="hover:text-gold transition">Core Values</Link></li> */}
               <li><Link href="/gallery" className="hover:text-gold transition">Gallery</Link></li>
             </ul>
           </div>
@@ -83,6 +83,7 @@ export function Footer() {
               <li><Link href="/get-involved" className="hover:text-gold transition">Volunteer</Link></li>
               <li><Link href="/get-involved" className="hover:text-gold transition">Partner with us</Link></li>
               <li><Link href="/get-involved" className="hover:text-gold transition">Newsletter</Link></li>
+              <li><Link href="/get-involved" className="hover:text-gold transition">Privacy Policy</Link></li>
             </ul>
           </div>
 
@@ -93,12 +94,12 @@ export function Footer() {
               <li className="flex items-start gap-3"><Mail className="h-4 w-4 mt-0.5 text-gold" /><span>LETTHEMSAYFOUNDATION@GMAIL.COM</span></li>
               <li className="flex items-start gap-3"><Phone className="h-4 w-4 mt-0.5 text-gold" /><span>+234 800 000 0000</span></li>
             </ul>
-            <Link
+            {/* <Link
               href="/donate"
               className="mt-6 inline-flex items-center gap-2 rounded-full bg-[var(--gradient-gold)] px-5 py-2.5 text-sm font-semibold text-gold-foreground shadow-[var(--shadow-gold)] hover:scale-[1.03] transition"
             >
               <Heart className="h-4 w-4" /> Donate Now
-            </Link>
+            </Link> */}
           </div>
         </div>
 

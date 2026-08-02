@@ -41,9 +41,9 @@ export default function GalleryPage() {
             Help us capture the next chapter.
           </h2>
           <div className="flex flex-wrap gap-3">
-            <Link href="/donate" className="inline-flex items-center gap-2 rounded-full bg-[var(--gradient-gold)] px-6 py-3 text-sm font-semibold text-gold-foreground shadow-[var(--shadow-gold)] hover:scale-[1.03] transition">
+            {/* <Link href="/donate" className="inline-flex items-center gap-2 rounded-full bg-[var(--gradient-gold)] px-6 py-3 text-sm font-semibold text-gold-foreground shadow-[var(--shadow-gold)] hover:scale-[1.03] transition">
               <Heart className="h-4 w-4" /> Donate
-            </Link>
+            </Link> */}
             <Link href="/get-involved" className="inline-flex items-center gap-2 rounded-full border border-primary-foreground/30 px-6 py-3 text-sm font-semibold hover:bg-primary-foreground/10 transition">
               Volunteer <ArrowRight className="h-4 w-4" />
             </Link>

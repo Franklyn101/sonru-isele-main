@@ -56,7 +56,7 @@ const facts = [
   {
     icon: MapPin,
     label: "Based in",
-    value: "Lagos, Nigeria",
+    value: "Ogulagha Delta State, Nigeria",
   },
   {
     icon: Users,
@@ -66,7 +66,7 @@ const facts = [
   {
     icon: Calendar,
     label: "Founded",
-    value: "2013",
+    value: "2025",
   },
   {
     icon: Award,
@@ -83,7 +83,7 @@ export default function AboutPage() {
         eyebrow="Who We Are"
         title="A movement of"
         highlight="quiet, daily compassion."
-        description="SONRU ISELE Charity Foundation began with a simple idea: that lifting one neighbor lifts a whole community. A decade later, that idea has become a Nigerian humanitarian movement."
+        description="SONRU ISELE CHARITY FOUNDATION began with a simple idea: that lifting one neighbor lifts a whole community. A decade later, that idea has become a Nigerian humanitarian movement."
         image={"/assets/hero-community.jpg"}
         imageAlt="SONRU ISELE volunteers gathered with community members in Nigeria"
       />
@@ -131,7 +131,7 @@ export default function AboutPage() {
       </section>
 
       {/* Timeline */}
-      <section className="bg-background py-24 md:py-32">
+      {/* <section className="bg-background py-24 md:py-32">
         <div className="container-page">
           <Reveal>
             <span className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.22em] text-primary/80">
@@ -194,7 +194,7 @@ export default function AboutPage() {
             </ol>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA */}
       <section className="bg-primary py-24 text-primary-foreground">

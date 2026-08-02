@@ -25,7 +25,7 @@ const currencies: Record<Currency, { symbol: string; code: string; rate: number;
 };
 
 const causes = [
-  { id: "where-needed", icon: Heart, title: "Where most needed", body: "Let our team direct your gift to the most urgent need this month." },
+  // { id: "where-needed", icon: Heart, title: "Where most needed", body: "Let our team direct your gift to the most urgent need this month." },
   { id: "healthcare", icon: Stethoscope, title: "Healthcare", body: "Maternal care, medical outreach and emergency assistance." },
   { id: "education", icon: GraduationCap, title: "Education", body: "Scholarships, classrooms and digital-skills training." },
   { id: "enterprise", icon: Briefcase, title: "Enterprise", body: "Micro-grants and mentorship for women and youth." },
@@ -272,7 +272,7 @@ const displayedCustomAmount =
 
                 {/* Cause */}
                 <div className="mt-8">
-                  <div className="text-sm font-medium text-foreground">Direct your gift to</div>
+                  <div className="text-sm font-medium text-foreground">what your gifts to</div>
                   <div className="mt-3 grid gap-2.5 sm:grid-cols-2">
                     {causes.map((c) => {
                       const active = cause === c.id;
@@ -281,9 +281,7 @@ const displayedCustomAmount =
                           key={c.id}
                           type="button"
                           onClick={() => setCause(c.id)}
-                          className={`flex items-start gap-3 rounded-2xl border p-4 text-left transition ${
-                            active ? "border-primary bg-primary/5" : "border-border hover:border-primary/40"
-                          }`}
+                          className={`flex items-start gap-3 rounded-2xl border p-4 text-left transition`}
                         >
                           <c.icon className={`mt-0.5 h-5 w-5 ${active ? "text-primary" : "text-muted-foreground"}`} />
                           <div>
@@ -313,6 +311,7 @@ const displayedCustomAmount =
                         >
                           <m.icon className={`h-5 w-5 ${active ? "text-primary" : "text-muted-foreground"}`} />
                           <div>
+                          
                             <div className="text-sm font-semibold text-foreground">{m.label}</div>
                             <div className="text-xs text-muted-foreground">{m.desc}</div>
                           </div>
@@ -349,7 +348,7 @@ const displayedCustomAmount =
                   <input required value={name} onChange={(e) => setName(e.target.value)} placeholder="Full name" aria-label="Full name" className="rounded-xl border border-input bg-background px-4 py-3 text-sm outline-none transition focus:border-primary focus:ring-2 focus:ring-primary/15" />
                   <input required type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email address" aria-label="Email" className="rounded-xl border border-input bg-background px-4 py-3 text-sm outline-none transition focus:border-primary focus:ring-2 focus:ring-primary/15" />
                 </div>
-
+{/* 
                 <button
                   type="submit"
                   className="mt-8 group inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-[var(--gradient-gold)] px-6 py-4 text-base font-semibold text-gold-foreground shadow-[var(--shadow-gold)] transition hover:scale-[1.01]"
@@ -357,7 +356,7 @@ const displayedCustomAmount =
                   <Heart className="h-5 w-5" />
                   {frequency === "monthly" ? "Give" : "Donate"} {format(effectiveAmount)} {frequency === "monthly" ? "/ month" : ""}
                   <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
-                </button>
+                </button> */}
 
                 <div className="mt-4 flex items-center justify-center gap-2 text-xs text-muted-foreground">
                   <Lock className="h-3.5 w-3.5" /> Secure, encrypted checkout — your details are never shared.

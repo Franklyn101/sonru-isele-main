@@ -4,32 +4,33 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Quote } from "lucide-react";
 import { Reveal } from "./Reveal";
+import Image from "next/image";
 
-const a1 = "/assets/avatar-1.jpg";
-const a2 = "/assets/avatar-2.jpg";
-const a3 = "/assets/avatar-3.jpg";
+const a1 = "/assets/pastorgodgift.jpeg";
+const a2 = "/assets/msdeborah.jpeg";
+const a3 = "/assets/mr morfort.jpeg";
 
 const testimonials = [
   {
     quote:
       "Their medical outreach reached our village when no one else would. My grandmother is alive today because of their care.",
-    name: "Amaka Okafor",
-    role: "Community member, Enugu",
+    name: "Pastor Godgift",
+    role: "Community member, Delta",
     img: a1,
   },
   {
     quote:
       "The micro-grant gave my tailoring business a real start. Two years later I employ three other women from my street.",
-    name: "Blessing Adekunle",
-    role: "Entrepreneur, Ibadan",
-    img: a3,
+    name: "MS Deborah",
+    role: "Entrepreneur, Delta",
+    img: a2,
   },
   {
     quote:
       "Partnering with SONRU ISELE has been one of the most transparent and impact-focused experiences of my career.",
-    name: "Dr. Tunde Ibrahim",
-    role: "Partner physician, Lagos",
-    img: a2,
+    name: "Mr morfort",
+    role: "Partner, Delta",
+    img: a3,
   },
 ];
 
@@ -78,7 +79,7 @@ export function Testimonials() {
                 transition={{ duration: 0.4, delay: 0.1 }}
                 className="mt-8 flex items-center gap-4"
               >
-                <img
+                <Image
                   src={t.img}
                   alt={t.name}
                   width={56}

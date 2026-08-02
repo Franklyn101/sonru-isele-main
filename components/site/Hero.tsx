@@ -8,10 +8,10 @@ import { Counter } from "./counter";
 const hero = "/assets/hero-community.jpg";
 
 const stats = [
-  { label: "Lives Impacted", value: 24500, suffix: "+" },
-  { label: "Communities Reached", value: 86 },
-  { label: "Youth Empowered", value: 3200, suffix: "+" },
-  { label: "Projects Completed", value: 142 },
+  { label: "Lives Impacted", value: 2500, suffix: "+" },
+  { label: "Communities Reached", value: 16 },
+  { label: "Youth Empowered", value: 100, suffix: "+" },
+  { label: "Projects Completed", value: 22 },
 ];
 
 export function Hero() {
@@ -45,7 +45,7 @@ export function Hero() {
         >
           SONRU ISELE
           <br />
-          <span className="text-gradient-gold italic">Charity Foundation</span>
+          <span className="text-gradient-gold italic">CHARITY FOUNDATION</span>
         </motion.h1>
 
         <motion.p

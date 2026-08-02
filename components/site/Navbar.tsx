@@ -11,7 +11,7 @@ const logo = "/assets/logo.png";
 const links = [
   {to: "/", label: "Home"},
   { to: "/about", label: "About" },
-  { to: "/mission", label: "Mission" },
+  // { to: "/mission", label: "Mission" },
   { to: "/impact", label: "Impact" },
   // { to: "/values", label: "Values" },
   { to: "/gallery", label: "Gallery" },
@@ -72,12 +72,12 @@ export function Navbar() {
           </nav>
 
           <div className="hidden lg:flex items-center gap-3">
-            <Link
+            {/* <Link
               href="/get-involved"
               className="text-sm font-medium text-primary hover:text-primary/80 transition-colors"
             >
               Volunteer
-            </Link>
+            </Link> */}
             <Link
               href="/donate"
               style={{ backgroundImage: "var(--gradient-gold)", backgroundColor: "var(--gold)" }}

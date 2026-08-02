@@ -135,7 +135,7 @@ export default function HomePage() {
 
             <Reveal delay={0.8}>
               <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-                SONRU ISELE Charity Foundation is a Nigerian humanitarian
+                SONRU ISELE ChARITY FOUNDATION is a Nigerian humanitarian
                 organization advancing inclusive human development —
                 bringing healthcare, education, enterprise support and
                 dignified accommodation to underserved communities.
@@ -204,7 +204,7 @@ export default function HomePage() {
             ))}
           </Stagger>
 
-          <div className="mt-10">
+          {/* <div className="mt-10">
             <Link
               href="/mission"
               className="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:text-primary/80"
@@ -212,7 +212,7 @@ export default function HomePage() {
               Explore our mission & vision
               <ArrowRight className="h-4 w-4" />
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -239,13 +239,13 @@ export default function HomePage() {
               </Reveal>
             </div>
 
-            <Link
+            {/* <Link
               href="/impact"
               className="inline-flex items-center gap-2 self-start text-sm font-semibold text-primary hover:text-primary/80"
             >
               See full impact
               <ArrowRight className="h-4 w-4" />
-            </Link>
+            </Link> */}
           </div>
 
           <Stagger className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -306,13 +306,13 @@ export default function HomePage() {
           </p>
 
           <div className="mt-10 flex flex-wrap justify-center gap-3">
-            <Link
+            {/* <Link
               href="/donate"
               className="inline-flex items-center gap-2 rounded-full bg-[var(--gradient-gold)] px-7 py-3.5 text-sm font-semibold text-gold-foreground shadow-[var(--shadow-gold)] transition hover:scale-[1.03]"
             >
               <Heart className="h-4 w-4" />
               Donate Now
-            </Link>
+            </Link> */}
 
             <Link
               href="/get-involved"
