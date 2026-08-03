@@ -415,7 +415,7 @@ const displayedCustomAmount =
               </ul>
             </div>
           </div>
-        </div>
+       
       </section>
 
       {/* FAQ */}
