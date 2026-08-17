@@ -10,11 +10,11 @@ import { Reveal, Stagger, itemVariants } from "@/components/site/Reveal";
 
 
 // export const metadata: Metadata = {
-//   title: "About — SONRU ISELE Charity Foundation",
+//   title: "About — SONRU ISELE CHARITY FOUNDATION",
 //   description:
-//     "Learn the story, leadership and journey of SONRU ISELE Charity Foundation — a Nigerian humanitarian organization advancing inclusive human development.",
+//     "Learn the story, leadership and journey of SONRU ISELE CHARITY FOUNDATION — a Nigerian humanitarian organization advancing inclusive human development.",
 //   openGraph: {
-//     title: "About — SONRU ISELE Charity Foundation",
+//     title: "About — SONRU ISELE CHARITY FOUNDATION",
 //     description:
 //       "The story, leadership and journey of a Nigerian humanitarian foundation.",
 //     url: "/about",

@@ -45,10 +45,10 @@ export function Navbar() {
         }`}
       >
         <div className="container-page flex items-center justify-between gap-6">
-          <Link href="/" className="flex items-center gap-2.5 group" aria-label="SONRU ISELE Charity Foundation — Home">
+          <Link href="/" className="flex items-center gap-2.5 group" aria-label="SONRU ISELE CHARITY FOUNDATION — Home">
             <img
               src={logo}
-              alt="SONRU ISELE Charity Foundation logo"
+              alt="SONRU ISELE CHARITY FOUNDATION logo"
               width={180}
               height={64}
               className="h-12 w-auto md:h-14 transition-transform duration-500 group-hover:scale-[1.03]"

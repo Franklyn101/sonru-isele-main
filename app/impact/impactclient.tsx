@@ -11,14 +11,14 @@ import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-  title: "Our Impact — SONRU ISELE Charity Foundation",
+  title: "Our Impact — SONRU ISELE CHARITY FOUNDATION",
   description:
     "Healthcare, education, enterprise and infrastructure outcomes — measured by the lives changed across Nigeria.",
   alternates: {
     canonical: "/impact",
   },
   openGraph: {
-    title: "Our Impact — SONRU ISELE Charity Foundation",
+    title: "Our Impact — SONRU ISELE CHARITY FOUNDATION",
     description: "Healthcare, education, enterprise and infrastructure outcomes across Nigeria.",
     url: "/impact",
   },

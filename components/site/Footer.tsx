@@ -44,7 +44,7 @@ export function Footer() {
           <div>
             <Link href="/" className="inline-flex items-center" aria-label="Home">
               <span className="inline-flex items-center justify-center rounded-2xl bg-primary-foreground p-3">
-                <img src={logo} alt="SONRU ISELE Charity Foundation" width={140} height={140} className="h-24 w-auto" />
+                <img src={logo} alt="SONRU ISELE CHARITY FOUNDATION" width={140} height={140} className="h-24 w-auto" />
               </span>
             </Link>
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-primary-foreground/75">
@@ -105,7 +105,7 @@ export function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col gap-3 border-t border-primary-foreground/15 pt-6 text-xs text-primary-foreground/60 sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} SONRU ISELE Charity Foundation. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} SONRU ISELE CHARITY FOUNDATION. All rights reserved.</p>
           <p className="font-display italic text-gold/90">“Lend a Hand, Light a Life.”</p>
         </div>
       </div>

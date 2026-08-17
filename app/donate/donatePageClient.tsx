@@ -82,7 +82,7 @@ const methodDetails: Record<string, { title: string; rows: { label: string; valu
 };
 
 const faqs = [
-  { q: "Is my donation tax-deductible?", a: "SONRU ISELE Charity Foundation is a registered Nigerian nonprofit. Receipts are issued for every gift and may be tax-deductible in your jurisdiction — please consult your tax advisor." },
+  { q: "Is my donation tax-deductible?", a: "SONRU ISELE CHARITY FOUNDATION is a registered Nigerian nonprofit. Receipts are issued for every gift and may be tax-deductible in your jurisdiction — please consult your tax advisor." },
   { q: "How is my money used?", a: "92% of every gift goes directly to programs. The remaining 8% covers essential operations, audits and program evaluation. Our annual report is published publicly each March." },
   { q: "Can I cancel a monthly gift?", a: "Yes — anytime. You'll receive a confirmation email with a one-click cancellation link, or you can email us at hello@sonruisele.org." },
   { q: "Do you accept gifts of stock or property?", a: "Yes. Please contact our giving team at  sonruiselecharityfoundation@gmail.com to coordinate." },
@@ -409,7 +409,7 @@ const displayedCustomAmount =
             <div className="rounded-3xl border border-border bg-card p-7">
               <h3 className="font-semibold text-foreground">Other ways to give</h3>
               <ul className="mt-4 space-y-3 text-sm text-muted-foreground">
-                <li><span className="font-medium text-foreground">Bank transfer:</span> SONRU ISELE Charity Foundation — FCMB 2003947592 (NGN)</li>
+                <li><span className="font-medium text-foreground">Bank transfer:</span> SONRU ISELE CHARITY FOUNDATION — FCMB 2003947592 (NGN)</li>
                 <li><span className="font-medium text-foreground">USD wire:</span> Available on request — email giving@sonruisele.org</li>
                 <li><span className="font-medium text-foreground">Stock or property gifts:</span> giving@sonruisele.org</li>
               </ul>

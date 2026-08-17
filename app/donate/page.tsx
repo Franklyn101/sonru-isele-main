@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import DonatePageClient from "./donatePageClient";
 
 // export const metadata: Metadata = {
-//   title: "Donate — SONRU ISELE Charity Foundation",
+//   title: "Donate — SONRU ISELE CHARITY FOUNDATION",
 //   description:
-//     "Make a one-time or monthly gift to SONRU ISELE Charity Foundation. Fund healthcare, education, enterprise and dignified housing for Nigerian families.",
+//     "Make a one-time or monthly gift to SONRU ISELE CHARITY FOUNDATION. Fund healthcare, education, enterprise and dignified housing for Nigerian families.",
 //   alternates: {
 //     canonical: "/donate",
 //   },
 //   openGraph: {
-//     title: "Donate — SONRU ISELE Charity Foundation",
+//     title: "Donate — SONRU ISELE CHARITY FOUNDATION",
 //     description: "One-time or monthly giving for healthcare, education, enterprise and housing.",
 //     url: "/donate",
 //   },
@@ -18,8 +18,8 @@ import DonatePageClient from "./donatePageClient";
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "DonateAction",
-  name: "Donate to SONRU ISELE Charity Foundation",
-  recipient: { "@type": "NGO", name: "SONRU ISELE Charity Foundation" },
+  name: "Donate to SONRU ISELE CHARITY FOUNDATION",
+  recipient: { "@type": "NGO", name: "SONRU ISELE CHARITY FOUNDATION" },
 };
 
 export default function DonatePage() {

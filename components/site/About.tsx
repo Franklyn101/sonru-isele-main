@@ -87,7 +87,7 @@ export function About() {
 
           <Reveal delay={1}>
             <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-              SONRU ISELE Charity Foundation is a Nigerian humanitarian organization committed to
+              SONRU ISELE CHARITY FOUNDATION is a Nigerian humanitarian organization committed to
               advancing inclusive human development. From quiet beginnings — one family lifting
               another — we have grown into a movement that brings healthcare, education, enterprise
               support, and dignified accommodation to underserved communities.
@@ -102,7 +102,7 @@ export function About() {
                 one home, one community at a time.”
               </blockquote>
               <figcaption className="mt-4 text-sm text-muted-foreground">
-                — Founder&apos;s note, SONRU ISELE Charity Foundation
+                — Founder&apos;s note, SONRU ISELE CHARITY FOUNDATION
               </figcaption>
             </figure>
           </Reveal>

@@ -9,14 +9,14 @@ import { Metadata } from "next";
 
 const headerImg = "/assets/impact-enterprise.jpg";
 export const metadata: Metadata = {
-  title: "Get Involved — SONRU ISELE Charity Foundation",
+  title: "Get Involved — SONRU ISELE CHARITY FOUNDATION",
   description:
-    "Volunteer, partner, fundraise or advocate. Find the role that fits you and join the SONRU ISELE Charity Foundation mission.",
+    "Volunteer, partner, fundraise or advocate. Find the role that fits you and join the SONRU ISELE CHARITY FOUNDATION mission.",
   alternates: {
     canonical: "/get-involved",
   },
   openGraph: {
-    title: "Get Involved — SONRU ISELE Charity Foundation",
+    title: "Get Involved — SONRU ISELE CHARITY FOUNDATION",
     description: "Volunteer, partner, fundraise or advocate with SONRU ISELE.",
     url: "/get-involved",
   },
