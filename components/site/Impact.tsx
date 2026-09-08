@@ -13,20 +13,20 @@ const infraimg2 = "/assets/infraimg2.jpg"
 const pillars = [
   {
     title: "Healthcare Support",
-    body: "Free medical outreach, maternal care, and emergency assistance reaching remote villages.",
+    body: "Free medical outreach, healthcare support, and emergency assistance for communities in need.",
     img: infraImg,
 
     alt: "Nurse caring for an elderly patient during a community health outreach",
-    metric: 120,
+    metric: 400,
     metricLabel: "patients treated",
     progress: 84,
   },
   {
     title: "Education & Skills",
-    body: "Scholarships, classroom rebuilds and digital-skills programs for the next generation.",
+    body: "School fees support, educational activities, scholarships, school clubs, and digital-skills training.",
     img: educationImg,
     alt: "African schoolchildren smiling at their desks in a bright classroom",
-    metric: 790,
+    metric: 50,
     metricLabel: "students supported",
     progress: 72,
   },
@@ -35,13 +35,13 @@ const pillars = [
     body: "Micro-grants, mentorship and equipment for women and youth entrepreneurs.",
     img: enterpriseImg,
     alt: "Young African entrepreneur smiling beside her sewing machine in a tailoring shop",
-    metric: 280,
+    metric: 30,
     metricLabel: "businesses funded",
     progress: 65,
   },
   {
-    title: "Infrastructure & Homes",
-    body: "Building safe, dignified accommodation and community facilities where they're needed most.",
+    title: "Widows & Elderly ",
+    body: "Provision of financial and material assistance to widows and elderly persons, helping them meet essential needs and live with greater dignity, security, and hope.",
      img: infraimg2,
 
     alt: "Newly built community housing in a Nigerian village with residents outside",
@@ -70,8 +70,9 @@ export function Impact() {
           </div>
           <Reveal delay={1}>
             <p className="max-w-md text-muted-foreground">
-              Every program is measured by the lives transformed — not the dollars spent. Here's
-              where your support goes.
+             Every programme is designed to create meaningful and lasting impact. Here’s how your support
+helps transform lives across Nigeria.
+
             </p>
           </Reveal>
         </div>

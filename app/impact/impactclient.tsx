@@ -35,18 +35,18 @@ const headline = [
 
 const stories = [
   {
-    title: "A clinic that came back to life",
-    body: "In Asaba, we rebuilt a shuttered village clinic, equipped it with a generator, and partnered with two physicians to provide weekly care to over 1,400 residents.",
+    title: "Care When It Matters Most",
+    body: "Through our free medical outreach and healthcare support, individuals and communities receive access to essential medical attention and emergency assistance where it is needed most.",
     tag: "Healthcare",
   },
   {
-    title: "From classroom to coding bootcamp",
-    body: "Our digital-skills program graduated 320 young Nigerians in 2024 — 78% are now earning income through freelancing or local employers.",
+    title: "Supporting Every Step of the Journey",
+    body: "From school fees support and educational activities to scholarships, school clubs, and digitalskills training, we help create opportunities for students and young people to learn, grow, and build a brighter future..",
     tag: "Education",
   },
   {
-    title: "Mama Blessing's tailoring shop",
-    body: "A ₦150,000 micro-grant grew into a three-woman tailoring business in Ibadan, paying for two children's full school year.",
+    title: "Turning Support into Opportunity",
+    body: "Through micro-grants, business support, mentorship, and equipment, we help entrepreneurs strengthen their businesses, create livelihoods, and contribute to the wellbeing of their communiies..",
     tag: "Enterprise",
   },
 ];

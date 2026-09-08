@@ -23,10 +23,10 @@ export const metadata: Metadata = {
 };
 
 const ways = [
-  { icon: HandHeart, title: "Volunteer", body: "Give a few hours a month — in the field or remotely. Healthcare, teaching, logistics, design and more." },
-  { icon: Handshake, title: "Partner", body: "Companies, NGOs and faith communities — co-design programs and amplify reach together." },
-  { icon: Building2, title: "Corporate giving", body: "Matched gifts, payroll giving, and CSR sponsorship of named programs." },
-  { icon: Megaphone, title: "Advocate", body: "Share our stories, host a fundraiser or speak up for the communities we serve." },
+  { icon: HandHeart, title: "Volunteer", body: "Companies, NGOs, and faith-based organisations can collaborate with us to co-design impactful programmes, extend our reach, and create lasting change." },
+  { icon: Handshake, title: "Partner", body: "Companies, NGOs, and faith-based organisations can collaborate with us to co-design impactful programmes, extend our reach, and create lasting change." },
+  { icon: Building2, title: "Corporate giving", body: ". Corporate Giving Support meaningful impact through matched gifts, payroll giving, and CSR sponsorship of dedicate programmes." },
+  { icon: Megaphone, title: "Advocate", body: "Share our stories, champion our causes, host a fundraiser, and help amplify the voices of the communities we serve." },
 ];
 
 export default function GetInvolvedPageClient() {

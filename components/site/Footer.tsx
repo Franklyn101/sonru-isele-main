@@ -51,7 +51,7 @@ export function Footer() {
               A Nigerian humanitarian foundation lending a hand and lighting lives through
               healthcare, education, enterprise and dignified accommodation.
             </p>
-            <div className="mt-6 flex gap-2">
+            {/* <div className="mt-6 flex gap-2">
               {[FacebookIcon, InstagramIcon, TwitterIcon, LinkedinIcon].map((Icon, i) => (
                 <a
                   key={i}
@@ -62,7 +62,7 @@ export function Footer() {
                   <Icon className="h-4 w-4" />
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
 
           <div>
@@ -83,7 +83,7 @@ export function Footer() {
               <li><Link href="/get-involved" className="hover:text-gold transition">Volunteer</Link></li>
               <li><Link href="/get-involved" className="hover:text-gold transition">Partner with us</Link></li>
               <li><Link href="/get-involved" className="hover:text-gold transition">Newsletter</Link></li>
-              <li><Link href="/get-involved" className="hover:text-gold transition">Privacy Policy</Link></li>
+              <li><Link href="/privacy-policy" className="hover:text-gold transition">Privacy Policy</Link></li>
             </ul>
           </div>
 

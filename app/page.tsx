@@ -61,27 +61,28 @@ const pillars = [
   {
     icon: Stethoscope,
     title: "Healthcare",
-    body: "Free medical outreach, maternal care and emergency support.",
+    body: "improving access to quality healthcare through medical outreach, health education and emergency support for individuals and communities in need",
+    href: "/impact",
+  },
+   {
+    icon: Home,
+    title: "Infrastructure",
+    body: "Financial support  for Dignified accommodation and development and improvement of community facilities.",
     href: "/impact",
   },
   {
     icon: GraduationCap,
     title: "Education",
-    body: "Scholarships, classroom rebuilds and digital-skills training.",
+    body: "Scholarships, support for school clubs and digital skills training",
     href: "/impact",
   },
   {
     icon: Briefcase,
-    title: "Enterprise",
-    body: "Micro-grants and mentorship for women and youth entrepreneurs.",
+    title: "Social Support",
+    body: "provision of financial and material assistance to widows and elderly persons, helping them meet essential needs and live with greater dignity.security and hope.",
     href: "/impact",
   },
-  {
-    icon: Home,
-    title: "Infrastructure",
-    body: "Dignified accommodation and community facilities.",
-    href: "/impact",
-  },
+ 
 ];
 
 export default function HomePage() {
@@ -239,20 +240,13 @@ export default function HomePage() {
               </Reveal>
             </div>
 
-            {/* <Link
-              href="/impact"
-              className="inline-flex items-center gap-2 self-start text-sm font-semibold text-primary hover:text-primary/80"
-            >
-              See full impact
-              <ArrowRight className="h-4 w-4" />
-            </Link> */}
           </div>
 
           <Stagger className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {pillars.map((pillar) => (
               <motion.div
                 key={pillar.title}
-                variants={itemVariants}
+               
                 className="group rounded-3xl border border-border bg-card p-6 hover-lift"
               >
                 <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-primary/10 text-primary transition group-hover:bg-primary group-hover:text-primary-foreground">
