@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Quote } from "lucide-react";
 import { Reveal } from "./Reveal";
 
-const g19 = "/assets/gallery-19.jpeg";
+const g19 = "/assets/impact-enterprise.jpg";
 const g3 = "/assets/gallery-3.jpg";
 const g4 = "/assets/gallery-4.jpg";
 
