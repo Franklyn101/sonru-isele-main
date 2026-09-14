@@ -7,19 +7,19 @@ const g1 = "/assets/gallery-1.jpg";
 const g2 = "/assets/gallery-2.jpg";
 const g3 = "/assets/gallery-3.jpg";
 const g4 = "/assets/gallery-4.jpg";
-const g5 = "/assets/gallery-5.jpeg";
-const g6 = "/assets/gallery-6.jpeg";
-const g7 = "/assets/gallery-7.jpeg";
-const g8 = "/assets/gallery-8.jpeg";
-const g9 = "/assets/gallery-9.jpeg";
-const g10 = "/assets/gallery-10.jpeg";
-const g11 = "/assets/gallery-11.jpeg";
-const g12 = "/assets/gallery-12.jpeg";
-const g13 = "/assets/gallery-13.jpeg";
+const g5 = "/assets/WhatsApp Image 2026-09-14 at 11.11.25 AM.jpeg";
+const g6 = "/assets/WhatsApp Image 2026-09-14 at 11.11.26 AM.jpeg";
+const g7 = "/assets/WhatsApp Image 2026-09-14 at 11.11.29 AM.jpeg";
+const g8 = "/assets/WhatsApp Image 2026-09-14 at 11.11.30 AM.jpeg";
+const g9 = "/assets/WhatsApp Image 2026-09-14 at 11.11.31 AM.jpeg";
+// const g10 = "/assets/gallery-10.jpeg";
+// const g11 = "/assets/gallery-11.jpeg";
+// const g12 = "/assets/gallery-12.jpeg";
+// const g13 = "/assets/gallery-13.jpeg";
 const g14 = "/assets/gallery-14.jpeg";
-const g15 = "/assets/gallery-15.jpeg";
-const g17 = "/assets/gallery-17.jpeg";
-const g18 = "/assets/gallery-18.jpeg";
+// const g15 = "/assets/gallery-15.jpeg";
+// const g17 = "/assets/gallery-17.jpeg";
+// const g18 = "/assets/gallery-18.jpeg";
 const g19 = "/assets/gallery-19.jpeg";
 const g20 = "/assets/gallery-20.jpeg";
 const g21 = "/assets/gallery-21.jpeg";
@@ -39,21 +39,21 @@ const items = [
   { src: g7, alt: "Local community members participating in a meeting", span: "" },
   { src: g8, alt: "Community members working together on a project", span: "" },
   { src: g9, alt: "Community members working together on a project", span: "col-span-2" },
-  { src: g10, alt: "Community members working together on a project", span: "col-span-2" },
-  { src: g11, alt: "Community members working together on a project", span: "" },
-  { src: g12, alt: "Community members working together on a project", span: "" },
-  { src: g13, alt: "Community members working together on a project", span: "" },
+  // { src: g10, alt: "Community members working together on a project", span: "col-span-2" },
+  // { src: g11, alt: "Community members working together on a project", span: "" },
+  // { src: g12, alt: "Community members working together on a project", span: "" },
+  // { src: g13, alt: "Community members working together on a project", span: "" },
   { src: g14, alt: "Community members working together on a project", span: "col-span-2" },
-  { src: g15, alt: "Community members working together on a project", span: "" },
-  { src: g17, alt: "Community members working together on a project", span: "" },
-  { src: g18, alt: "Community members working together on a project", span: "col-span-2" },
+  // { src: g15, alt: "Community members working together on a project", span: "" },
+  // { src: g17, alt: "Community members working together on a project", span: "" },
+  // { src: g18, alt: "Community members working together on a project", span: "col-span-2" },
   { src: g19, alt: "Community members working together on a project", span: "col-span-2" },
   { src: g20, alt: "Community members working together on a project", span: "" },
   { src: g21, alt: "Community members working together on a project", span: "row-span-2" },
   { src: g22, alt: "Community members working together on a project", span: "" },
   { src: g23, alt: "Community members working together on a project", span: "col-span-2" },
-  { src: healthcareImg, alt: "Nurse caring for an elderly patient", span: "" },
-  { src: enterpriseImg, alt: "Young entrepreneur in her tailoring business", span: "row-span-2" },
+  { src: healthcareImg, alt: "Children walking with joy after receiving school materials", span: "" },
+  { src: enterpriseImg, alt: "the education of young children is our priority", span: "row-span-2" },
   { src: educationImg, alt: "Children smiling in a classroom", span: "" },
 ];
 

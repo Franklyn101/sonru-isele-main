@@ -37,7 +37,7 @@ export default function GetInvolvedPageClient() {
         eyebrow="Join the Mission"
         title="There's a place"
         highlight="for every kind of helper."
-        description="Whether you have an hour, a skill, or a business — there's a meaningful way to lend a hand."
+        description="Whether you have an hour, a skill, or a business there's a meaningful way to lend a hand."
         image={headerImg}
         imageAlt="A SONRU ISELE volunteer mentoring a young entrepreneur"
       />

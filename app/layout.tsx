@@ -36,7 +36,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
-        <FloatingDonate />
+        {/* <FloatingDonate /> */}
       </body>
     </html>
   );

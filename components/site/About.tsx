@@ -89,7 +89,7 @@ export function About() {
             <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
               SONRU ISELE CHARITY FOUNDATION is a Nigerian humanitarian organization committed to
               advancing inclusive human development. From quiet beginnings — one family lifting
-              another — we have grown into a movement that brings healthcare, education, enterprise
+              another we have grown into a movement that brings healthcare, education, enterprise
               support, and dignified accommodation to underserved communities.
             </p>
           </Reveal>
@@ -98,7 +98,7 @@ export function About() {
             <figure className="mt-8 rounded-2xl border border-border bg-secondary/60 p-6 sm:p-7">
               <Quote className="h-7 w-7 text-gold" aria-hidden />
               <blockquote className="mt-3 text-base sm:text-lg font-display italic text-foreground/90">
-                “We do not ask how big our help can be. We ask how deeply it can heal — one life,
+                “We do not ask how big our help can be. We ask how deeply it can heal one life,
                 one home, one community at a time.”
               </blockquote>
               <figcaption className="mt-4 text-sm text-muted-foreground">

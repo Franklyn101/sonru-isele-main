@@ -137,7 +137,7 @@ export default function HomePage() {
             <Reveal delay={0.8}>
               <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
                 SONRU ISELE CHARITY FOUNDATION is a Nigerian humanitarian
-                organization advancing inclusive human development —
+                organization advancing inclusive human development
                 bringing healthcare, education, enterprise support and
                 dignified accommodation to underserved communities.
               </p>

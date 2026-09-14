@@ -59,7 +59,7 @@ export default function ImpactPageClient() {
         eyebrow="Our Impact"
         title="Measured by lives changed,"
         highlight="not dollars spent."
-        description="Every program is built around real outcomes — and every outcome is verified at the community level."
+        description="Every program is built around real outcomes and every outcome is verified at the community level."
         image={headerImg}
         imageAlt="Healthcare workers tending to patients at a SONRU ISELE medical outreach"
       />

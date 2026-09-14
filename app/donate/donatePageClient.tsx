@@ -137,7 +137,7 @@ const displayedCustomAmount =
         eyebrow="Lend a Hand"
         title="Light a life"
         highlight="today."
-        description="Every gift — large or small, one-time or monthly — translates directly into healthcare, education, enterprise and homes for Nigerian families."
+        description="Every gift large or small, one time or monthly translates directly into healthcare, education, enterprise and homes for Nigerian families."
         image={headerImg}
         imageAlt="A newly built community home funded by SONRU ISELE donors"
       />
