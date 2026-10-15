@@ -44,7 +44,7 @@ export function Footer() {
           <div>
             <Link href="/" className="inline-flex items-center" aria-label="Home">
               <span className="inline-flex items-center justify-center rounded-2xl bg-primary-foreground p-3">
-                <img src={logo} alt="SONRU ISELE CHARITY FOUNDATION" width={140} height={140} className="h-24 w-auto" />
+                <img src={logo} alt="Sonru Isele Charity Foundation" width={140} height={140} className="h-24 w-auto" />
               </span>
             </Link>
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-primary-foreground/75">
@@ -90,7 +90,7 @@ export function Footer() {
           <div>
             <h3 className="font-display text-sm uppercase tracking-[0.22em] text-gold">Contact</h3>
             <ul className="mt-5 space-y-3 text-sm text-primary-foreground/80">
-              <li className="flex items-start gap-3"><MapPin className="h-10 w-10 mt-0.5 text-gold" /><span>1,LETTHEMSAY COUNTRY HOME KALA OGULAGHA QUARTERS, DELTA STATE</span></li>
+              <li className="flex items-start gap-3"><MapPin className="h-10 w-10 mt-0.5 text-gold" /><span>1,Letthemsay Country Home Kala Ogulagha Quarters, Delta State</span></li>
               <li className="flex items-start gap-3"><Mail className="h-4 w-4 mt-0.5 text-gold" /><span>sonruiselecharityfoundation@gmail.com</span></li>
               <li className="flex items-start gap-3"><Phone className="h-4 w-4 mt-0.5 text-gold" /><span>+234 8181022649</span></li>
               <li className="flex items-start gap-3"><Phone className="h-4 w-4 mt-0.5 text-gold" /><span>+234 8156710856</span></li>
@@ -105,7 +105,7 @@ export function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col gap-3 border-t border-primary-foreground/15 pt-6 text-xs text-primary-foreground/60 sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} SONRU ISELE CHARITY FOUNDATION. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Sonru Isele Charity Foundation. All rights reserved.</p>
           <p className="font-display italic text-gold/90">“Lend a Hand, Light a Life.”</p>
         </div>
       </div>

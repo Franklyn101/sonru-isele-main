@@ -9,23 +9,23 @@ import { Metadata } from "next";
 
 const headerImg = "/assets/impact-enterprise.jpg";
 export const metadata: Metadata = {
-  title: "Get Involved — SONRU ISELE CHARITY FOUNDATION",
+  title: "Get Involved — Sonru Isele Charity Foundation",
   description:
-    "Volunteer, partner, fundraise or advocate. Find the role that fits you and join the SONRU ISELE CHARITY FOUNDATION mission.",
+    "Volunteer, partner, fundraise or advocate. Find the role that fits you and join the Sonru Isele Charity Foundation mission.",
   alternates: {
     canonical: "/get-involved",
   },
   openGraph: {
-    title: "Get Involved — SONRU ISELE CHARITY FOUNDATION",
+    title: "Get Involved — Sonru Isele Charity Foundation",
     description: "Volunteer, partner, fundraise or advocate with SONRU ISELE.",
     url: "/get-involved",
   },
 };
 
 const ways = [
-  { icon: HandHeart, title: "Volunteer", body: "Companies, NGOs, and faith-based organisations can collaborate with us to co-design impactful programmes, extend our reach, and create lasting change." },
+  { icon: HandHeart, title: "Volunteer", body: "Individuals can volunteer their time, skills, expertise, and passion to support our programmes, serve communities, and contribute meaningfully to creating lasting change." },
   { icon: Handshake, title: "Partner", body: "Companies, NGOs, and faith-based organisations can collaborate with us to co-design impactful programmes, extend our reach, and create lasting change." },
-  { icon: Building2, title: "Corporate giving", body: ". Corporate Giving Support meaningful impact through matched gifts, payroll giving, and CSR sponsorship of dedicate programmes." },
+  { icon: Building2, title: "Corporate giving", body: "Corporate Giving Support meaningful impact through matched gifts, payroll giving, and CSR sponsorship of dedicate programmes." },
   { icon: Megaphone, title: "Advocate", body: "Share our stories, champion our causes, host a fundraiser, and help amplify the voices of the communities we serve." },
 ];
 

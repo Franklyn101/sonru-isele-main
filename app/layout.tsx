@@ -20,9 +20,9 @@ const merriweather = Merriweather({
 });
 
 export const metadata: Metadata = {
-  title: "SONRU ISELE CHARITY FOUNDATION",
+  title: "Sonru Isele Charity Foundation",
   description:
-    "SONRU ISELE CHARITY FOUNDATION is a Nigerian nonprofit advancing inclusive human development through healthcare, education, enterprise support, infrastructure, accommodation and youth empowerment.",
+    "Sonru Isele Charity Foundation is a Nigerian nonprofit advancing inclusive human development through healthcare, education, enterprise support, infrastructure, accommodation and youth empowerment.",
 };
 
 export default function RootLayout({

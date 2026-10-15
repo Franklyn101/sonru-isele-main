@@ -27,9 +27,9 @@ import gallery1 from "@/public/assets/gallery-1.jpg";
 import gallery4 from "@/public/assets/gallery-4.jpg";
 
 // export const metadata: Metadata = {
-//   title: "SONRU ISELE CHARITY FOUNDATION — Lend a Hand, Light a Life",
+//   title: "Sonru Isele Charity Foundation — Lend a Hand, Light a Life",
 //   description:
-//     "SONRU ISELE CHARITY FOUNDATION is a Nigerian nonprofit advancing inclusive human development through healthcare, education, enterprise support, infrastructure, accommodation and youth empowerment.",
+//     "Sonru Isele Charity Foundation is a Nigerian nonprofit advancing inclusive human development through healthcare, education, enterprise support, infrastructure, accommodation and youth empowerment.",
 //   keywords: [
 //     "charity foundation Nigeria",
 //     "nonprofit organization Nigeria",
@@ -40,17 +40,17 @@ import gallery4 from "@/public/assets/gallery-4.jpg";
 //     "SONRU ISELE",
 //   ],
 //   openGraph: {
-//     title: "SONRU ISELE CHARITY FOUNDATION — Lend a Hand, Light a Life",
+//     title: "Sonru Isele Charity Foundation — Lend a Hand, Light a Life",
 //     description:
-//       "SONRU ISELE CHARITY FOUNDATION is a Nigerian nonprofit advancing inclusive human development through healthcare, education, enterprise support, infrastructure, accommodation and youth empowerment.",
+//       "Sonru Isele Charity Foundation is a Nigerian nonprofit advancing inclusive human development through healthcare, education, enterprise support, infrastructure, accommodation and youth empowerment.",
 //     url: "/",
 //     type: "website",
 //   },
 //   twitter: {
 //     card: "summary_large_image",
-//     title: "SONRU ISELE CHARITY FOUNDATION — Lend a Hand, Light a Life",
+//     title: "Sonru Isele Charity Foundation — Lend a Hand, Light a Life",
 //     description:
-//       "SONRU ISELE CHARITY FOUNDATION is a Nigerian nonprofit advancing inclusive human development through healthcare, education, enterprise support, infrastructure, accommodation and youth empowerment.",
+//       "Sonru Isele Charity Foundation is a Nigerian nonprofit advancing inclusive human development through healthcare, education, enterprise support, infrastructure, accommodation and youth empowerment.",
 //   },
 //   alternates: {
 //     canonical: "/",
@@ -136,7 +136,7 @@ export default function HomePage() {
 
             <Reveal delay={0.8}>
               <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-                SONRU ISELE CHARITY FOUNDATION is a Nigerian humanitarian
+                Sonru Isele Charity Foundation is a Nigerian humanitarian
                 organization advancing inclusive human development
                 bringing healthcare, education, enterprise support and
                 dignified accommodation to underserved communities.

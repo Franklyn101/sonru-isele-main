@@ -10,11 +10,11 @@ import { Reveal, Stagger, itemVariants } from "@/components/site/Reveal";
 
 
 // export const metadata: Metadata = {
-//   title: "About — SONRU ISELE CHARITY FOUNDATION",
+//   title: "About — Sonru Isele Charity Foundation",
 //   description:
-//     "Learn the story, leadership and journey of SONRU ISELE CHARITY FOUNDATION — a Nigerian humanitarian organization advancing inclusive human development.",
+//     "Learn the story, leadership and journey of Sonru Isele Charity Foundation — a Nigerian humanitarian organization advancing inclusive human development.",
 //   openGraph: {
-//     title: "About — SONRU ISELE CHARITY FOUNDATION",
+//     title: "About — Sonru Isele Charity Foundation",
 //     description:
 //       "The story, leadership and journey of a Nigerian humanitarian foundation.",
 //     url: "/about",
@@ -83,7 +83,7 @@ export default function AboutPage() {
         eyebrow="Who We Are"
         title="A movement of"
         highlight="quiet, daily compassion."
-        description="SONRU ISELE CHARITY FOUNDATION began with a simple idea: that lifting one neighbor lifts a whole community. A decade later, that idea has become a Nigerian humanitarian movement."
+        description="Sonru Isele Charity Foundation began with a simple idea: that lifting one neighbor lifts a whole community. A decade later, that idea has become a Nigerian humanitarian movement."
         image={"/assets/hero-community.jpg"}
         imageAlt="SONRU ISELE volunteers gathered with community members in Nigeria"
       />

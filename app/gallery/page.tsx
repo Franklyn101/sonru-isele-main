@@ -7,14 +7,14 @@ import { ArrowRight, Heart } from "lucide-react";
 const headerImg = "/assets/gallery-3.jpg";
 
 // export const metadata: Metadata = {
-//   title: "Gallery — SONRU ISELE CHARITY FOUNDATION",
+//   title: "Gallery — Sonru Isele Charity Foundation",
 //   description:
 //     "Photographs from the field: outreach programs, youth empowerment and community development across Nigeria.",
 //   alternates: {
 //     canonical: "/gallery",
 //   },
 //   openGraph: {
-//     title: "Gallery — SONRU ISELE CHARITY FOUNDATION",
+//     title: "Gallery — Sonru Isele Charity Foundation",
 //     description: "Photographs from outreach and community programs across Nigeria.",
 //     url: "/gallery",
 //   },

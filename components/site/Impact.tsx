@@ -17,7 +17,7 @@ const pillars = [
     img: infraImg,
 
     alt: "Nurse caring for an elderly patient during a community health outreach",
-    metric: 400,
+    metric: 120,
     metricLabel: "patients treated",
     progress: 84,
   },
@@ -26,7 +26,7 @@ const pillars = [
     body: "School fees support, educational activities, scholarships, school clubs, and digital-skills training.",
     img: educationImg,
     alt: "African schoolchildren smiling at their desks in a bright classroom",
-    metric: 50,
+    metric: 400,
     metricLabel: "students supported",
     progress: 72,
   },

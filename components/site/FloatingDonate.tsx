@@ -14,7 +14,7 @@ export function FloatingDonate() {
     >
       <Link
         href="/donate"
-        aria-label="Donate to SONRU ISELE CHARITY FOUNDATION"
+        aria-label="Donate to Sonru Isele Charity Foundation"
         className="inline-flex items-center gap-2 rounded-full px-5 py-3.5 text-sm font-semibold text-gold-foreground shadow-[var(--shadow-gold)] hover:scale-105 transition-transform"
         style={{
           backgroundImage: "var(--gradient-gold)",

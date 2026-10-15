@@ -8,7 +8,7 @@ import { Counter } from "./counter";
 const hero = "/assets/hero-community.jpg";
 
 const stats = [
-  { label: "Lives Impacted", value: 2500, suffix: "+" },
+  { label: "Lives Impacted", value: 500, suffix: "+" },
   { label: "Communities Reached", value: 16 },
   { label: "Youth Empowered", value: 100, suffix: "+" },
   { label: "Projects Completed", value: 22 },
@@ -19,7 +19,7 @@ export function Hero() {
     <section className="relative min-h-[100svh] w-full overflow-hidden bg-primary">
       <motion.img
         src={hero}
-        alt="Joyful children of a Nigerian community gathering at sunset, representing the people SONRU ISELE CHARITY FOUNDATION serves"
+        alt="Joyful children of a Nigerian community gathering at sunset, representing the people Sonru Isele Charity Foundation serves"
         width={1920}
         height={1280}
         fetchPriority="high"

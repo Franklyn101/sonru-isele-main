@@ -9,9 +9,9 @@ import { Reveal, Stagger, itemVariants } from "@/components/site/Reveal";
 import { Metadata } from "next";
 
 
-const TITLE = "SONRU ISELE CHARITY FOUNDATION — Lend a Hand, Light a Life";
+const TITLE = "Sonru Isele Charity Foundation — Lend a Hand, Light a Life";
 const DESC =
-  "SONRU ISELE CHARITY FOUNDATION is a Nigerian nonprofit advancing inclusive human development through healthcare, education, enterprise support, infrastructure, accommodation and youth empowerment.";
+  "Sonru Isele Charity Foundation is a Nigerian nonprofit advancing inclusive human development through healthcare, education, enterprise support, infrastructure, accommodation and youth empowerment.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "NGO",
-  name: "SONRU ISELE CHARITY FOUNDATION",
+  name: "Sonru Isele Charity Foundation",
   alternateName: "SONRU ISELE",
   slogan: "Lend a Hand, Light a Life",
   description: DESC,
@@ -96,7 +96,7 @@ export default function MissionClient() {
             </Reveal>
             <Reveal delay={0.8}>
               <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-                SONRU ISELE CHARITY FOUNDATION is a Nigerian humanitarian organization advancing
+                Sonru Isele Charity Foundation is a Nigerian humanitarian organization advancing
                 inclusive human development — bringing healthcare, education, enterprise support
                 and dignified accommodation to underserved communities.
               </p>
